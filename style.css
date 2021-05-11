@@ -1,0 +1,39 @@
+/*Title Section*/
+h1{
+    text-align: center;
+}
+
+
+/*Information Section*/
+#info-section-p2{
+    margin-top: 50%
+}
+
+
+
+/*Dynamic page section*/
+#abstract-row{
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+
+/*Navigation-links Section*/
+.nav{
+    align-content: flex-end;
+}
+
+#nav-links{
+    margin-top: 50%; 
+    margin-bottom: 50%;
+    margin-right: 5%
+}
+
+.nav-item{
+    margin-top: 10%;
+}
+
+#link-current-page{
+    padding-right: 25%
+    
+}

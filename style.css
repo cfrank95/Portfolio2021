@@ -1,39 +1,83 @@
-/*Title Section*/
+/*global Styling*/
 h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
+body{
+    background-image: url("photos/gry-background-6.jpg");
+    background-size: cover;
+}
+
+.list-group-item{
+    background-color: rgb(105,105,115);
+    opacity: 1;
+}
+
+.card{
+    background-blend-mode: color;
+    background-color: rgb(80,80,95);
+    opacity: 0.97;
+}
+
+/*Title Section*/
+#header{
+    background-color: rgb(80,80,80);
+    text-align: center;
+    opacity: .8;
+}
 
 /*Information Section*/
 #info-section-p2{
-    margin-top: 50%
+    margin-top: 50%;
 }
 
+#linkedin-link{
+    text-align: center;
+    background-color: rgb(150,150,155);
+}
 
+.list-group{
+    text-align: left;
+    background-blend-mode: darken;
+    border-bottom-color: rgb(80,80,95);
+}
+
+.card-img-top{
+    align-self: center;
+}
+
+#accomplishments{
+    background-color: rgb(80,80,95);
+    opacity: .93;
+}
 
 /*Dynamic page section*/
 #abstract-row{
-    padding-top: 5%;
-    padding-bottom: 2%;
+    padding-top: 1%;
 }
 
+#abstract{
+    text-align: center;
+    background-color: rgb(80,80,95);
+    border-radius: 
+    opacity: 0.95;
+}
 
 /*Navigation-links Section*/
+
 .nav{
     align-content: flex-end;
 }
 
-#nav-links{
-    margin-top: 50%; 
-    margin-bottom: 50%;
-    margin-right: 5%
-}
-
 .nav-item{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 #link-current-page{
-    padding-right: 25%
+    padding-right: 30%;
     
 }
